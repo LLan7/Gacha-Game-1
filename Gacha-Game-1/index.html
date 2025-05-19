@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gacha Game-1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Gacha-Game-1</h2>
+
+  <p><strong>Welcome!</strong> In this experiment, you will be asked to solve a series of simple math problems. For each correct answer, you will receive a random virtual reward from a gacha machine. The rewards come in four levels of rarity:</p>
+  <ul>
+    <li>🟢 Common → €0.20</li>
+    <li>🔵 Uncommon → €0.50</li>
+    <li>🟣 Rare → €0.80</li>
+    <li>🟡 Super Rare → €10.00</li>
+  </ul>
+
+  <p>You can continue pulling the gacha (by solving math problems) for up to 10 rounds, or stop whenever you like. 
+  </p>
+
+  <hr>
+
+  <p id="task"></p>
+  <input type="number" id="answer" placeholder="Enter your answer">
+  <button onclick="checkAnswer()">Submit Answer</button>
+  <p id="feedback"></p>
+  <div id="resultContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
